@@ -1,16 +1,17 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/debian
 {
-	"name": "Nix",
-	"build": {
-		// Path is relative to the devcontainer.json file.
-		"dockerfile": "Dockerfile"
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"jnoortheen.nix-ide"
-			]
-		}
-	}
+  "name": "Nix",
+  "build": {
+    // Path is relative to the devcontainer.json file.
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jnoortheen.nix-ide",
+        "GitHub.copilot-chat"
+      ]
+    }
+  }
 }
